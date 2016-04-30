@@ -1,0 +1,49 @@
+
+.container {
+width: 920px;
+margin: 0
+    
+}
+
+#encabezado {
+    height: 150px;
+    background-color: aquamarine;
+    
+}
+
+#barra-navegacion {
+    height: 50px;
+    background-color: blueviolet
+}
+
+#nota-principal {
+    height: 300px;
+    background-color: darkcyan
+}
+
+#notas-secundarias {
+    width: 660px;
+    /*Display: inline;*/
+    float: left;
+    padding: 20px;
+    height: 260px;
+    background-color: cornflowerblue;
+    
+    
+}
+
+#publicidad {
+    width: 210px;
+    /*display inline;*/
+    float: right;
+    padding: 5px;
+    height: 290px;
+    background-color: crimson;
+    
+}
+
+#pie {
+    clear: both;
+    height: 150px;
+    background-color: olivedrab;
+}

@@ -5,36 +5,76 @@
     <title> Proyecto web 
     </title>
     <link rel="stylesheet" href="css/style.css">
-    </head>    
-    <body> 
-        <div class="container block-center">
-    <header id="encabezado">
+    </head>  
+    <style>
+        nav li
+        {
+            display: inline-block;
+            padding: 10px;
+            }
+        nav a
+        {
+            display: inline-block;
+            padding: 10px;
+            }
+        nav a: hover{background-color: rosybrown;}
+        </style>
+        <body> 
+       <div class="container block-center">
+        <header id="encabezado">
    <!--imagen con logo sep-->
-      <img src="#" alt="logo sep" width="292px" height="80px">
+     <figure>
+      <img id="logo-sep" src="imagenes/logo_sep.png" alt="logo sep" >
+        </figure>
+          
        <!--textos con titulo-->
+       <div id="titulos">
        <!--imagen sems-dgti y cuadro de busqueda-->
+           <h1> Sitio Oficial del CETis108 </h1>
+           <h2> Subcretaria de Educacion Media Superior </h2>
+           <h3> Direccion General de Educacion Tecnológica Industrial </h3>
+           <h4> Centro de Estudios Tecnológicos Industrial y de servicios No.108 </h4>
+           <h4> "Gral. Gabriel Leyva Solano" C.C.T. 25DCT0108H </h4>
+        </div>
+        <!--imagen sems-dgti y cuadro de busqueda-->
+         <div id="busqueda">
+         <figure>
+         <img src="imagenes/sems_dgeti.png" alt="logo sems DGETI">
+             </figure>
+             <input type="text" name="buscar">
+             <button> buscar </button>
+            </div>
         </header>
     <nav id="barra-navegacion">
-    barra de navegacion
+    <ul> <!--unordered list-->
+        <li> <a href="#"> Incio </a></li>
+         <li> <a href="#"> Plantel </a></li>
+         <li> <a href="#"> Oferta Educativa </a></li>
+          <li> <a href="#"> Alumnos </a></li>
+         <li> <a href="#"> Docentes </a></li>
+          <li> <a href="#"> Empleados </a></li>
+           <li> <a href="#"> Contacto</a></li>
+        </ul>
         </nav>
-    <section id="contenido">
+    <main id="contenido">
         <section id="nota-principal">
-        nota prinicipal
+       <figure>
+       <img id="prepa-en-linea" src="imagenes/prepa_en_linea_2016.jpg" alt="prepa-en-linea" width=900px;>
+            </figure>
         </section>
-        <section id="notas-secundarias">
+        <section id="nota-secundaria">
         notas secundarias
         </section>
         <aside id="publicidad">
     publicidad
         </aside>
-        </section>
+        </main>
               <footer id="pie">
                pie de pagina 
-               
-        </footer>
-        </div>
-        </body>
-       </html
+               </footer>
+              </div>
+              </body>
+              </html
         
         
     

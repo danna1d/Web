@@ -1,101 +1,306 @@
+nav {
+    width: 966PX;
+    display:flex;
+    
+    height: 59px;
+    justify-content: center;}
 
 .container {
 width: 920px;
 margin: 0 auto;
     
 }
-/*bloque encabezado inicio*/
 
-#encabezado {
+#nota-principal
+
+{
+    width: 100px;
+    height: 10px;
+    background-color: greenyellow;
+}
+
+#publicidad
+{
+    height: 1120px;
+    color: crimson
+        float: right;
+    background-color: white;
+}
+
+#pie
+{
+    height: 390px;
+    clear: both;
+    background-color: cadetblue;
+}
+
+#nota-secundaria
+{
+    width: 700px;
+    float: left;
+    display: inline;
+    background-color: beige;
+    height: 1120px;
+    min-height: 260px;
+    }
+li 
+{
+    display: inline-block;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+#imagen
+{
+    width: 395;
+    height: 484;
+}
+
+#barra-navegacion {
+    height: 50px;
+    display: flex;
+    justify-content: center
+    }
+
+#barra-navegacion li 
+{
+    display: online.block;
+    padding: 0px;
+}
+
+#barra-navegacion ul ul
+{
+    display: none;
+}
+
+#barra-navegacion a 
+
+{
+    color: black;
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 10px; 20px; 
+    transition: 0.5s;
+}
+
+#barra-naegacion ul 
+{
+   padding: 0;
+    
+}
+#barra-navegacion >ul>li>a:hover{
+    background-color:lightgray;
+    
+}
+
+
+
+#encabezados #titulos{
+    padding: 0px;
+    margin: 0px;
+   
+}
+ #encabezado #logo{
+    background: url('../imagenes/logo_sep.png') no-repeat 0px 0px;
+    float: left;
+    width: 295px;
+    height: 140px;
+   
+}
+header 
+{
+padding: 0px;
+width: 966px;
+margin: 0px;
+background: white;
+   
+}
+#encabezado
+{
     height: 120px;
-   display: flex;
-    justify-content: space-between;
-    
+    display: flex;
+    justify-content: space-between
 }
-
-#encabezado figure,  #titulos *  {
-    margin: 0;
-    
-}
-
 #titulos h1{font-size: 1.5em;}
 #titulos h2{font-size: 1.2em;}
 #titulos h3{font-size: 0.9em;}
 #titulos h4{font-size: 0.8em;}
 
-
-
-#barra-navegacion {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-  
-}
-
-#barra-navegacion  li{
-   display: inline-block;
-    padding: 0;
-  
-}
-
-
-#barra-navegacion ul ul{
-    display: none;
-    }
-#barra-navegacion a {
-    color: black;
-    padding: 10px; 20px;
-    text-decoration: none;
-    background-color: darkgray;
-    transition: 0.5s;
-    }
-
-#barra-navegacion ul
-{
-    padding: 0;
-    }
-#barra-navegacion >ul >li >a:hover {
-    background-color: lightgray;
-    }
-
-#nota-secundaria
-{
-    width: 660px;
-    /*display: inline*/
-    float: left;
-    padding: 20px;
-    height: 260px;
-    background-color: darkgrey;
-    }
-
-#publicidad
-{
-    width: 210px;
-    /*display: inline;*/
-    float: right;
-    padding: 5px;
-    height: 290px;
-    background-color: lightcoral
-    }
-
-#nota-principal {
-    border: 10px solid #ddd;
-    box-shadow: 0 0 10px #ddd;
-}
-
-#pie
-{
-    clear: both;
-    height: 150px;
-    background-color: coral;
-    }
-
-figure 
+#encabezado figure, #titulos
 {
     margin: 0;
 }
-
-
-main {
-    margin-top: 10px;
+header h1,h2,h3,h4,h5,p{
+    padding: 0px;
+    margin: 0px;
 }
+#frm-busqueda input {
+    background-color: azure;
+    border: 1px solid #d6d6d6;
+    box-shadow: inset 1px 1px 0 #eeeeee;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 28px 0 10px;
+    /* width: 200px; */
+}
+#frm-busqueda button {
+    position: absolute;
+    top: 60%;
+    right: 5px;
+    margin-top: -12px;
+    background: transparent;
+    background-image: url('../imagenes/busqueda.png');
+    background-repeat: no-repeat;
+    display: block;
+    height: 25px;
+    width: 25px;
+    text-indent: -9999px;
+    border: 0;
+    cursor: pointer;
+}
+#frm-busqueda {
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    box-shadow: 1px 0 0 #f8f8f8;
+    padding: 5px 5px 3px 5px;
+    position: relative;
+}
+
+#nota-secundaria article div p
+{
+    text-align: justify;
+    
+}
+#nota-secundaria article h2
+{
+    font-variant: small-caps;
+    line-height:0.8em;
+}
+#nota-secundaria
+{
+width: 660px;
+float: left;
+min-height: 260px    
+background-color: white;
+}
+#encabezado figure
+{
+    margin: 0;
+}
+#nota-secundaria figure span
+{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px;
+    border-color: aqua;
+    box-shadow:  1px 1px 3px darkgray;
+    background-color: gray;
+}
+#nota-secundaria figure
+{
+    position: relative;
+}
+#nota-secundaria article{
+    display: flex;
+}
+#nota-secundaria article div
+{
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+#nota-secundaria a
+{
+    color: skyblue;
+    text-decoration: underline;
+    
+}
+#nota-secundaria a:hover{
+    color: darkcyan;
+    text-decoration: underline;
+}
+#sombra-imagen{
+    box-shadow: underline;
+}
+#encabezado #titulo * 
+{
+margin: 0;
+    
+}
+.ver-mas div{
+    margin: 0 !important;
+    padding: 6px !important;
+
+}
+.ver-mas>div{
+    width: 100px;
+    height: 2em;
+    background-color:peachpuff;
+padding: 10px;
+    display: inline-block;
+}
+.ver-mas>div>div{
+    border: 1px white;
+    
+    padding: 2px 20px;
+    width: 82px;
+    border: 1px solid white;
+}
+.ver-mas p{
+  
+    text-align: center;
+    color: white;
+    font-weight: bold}
+      article
+{
+    display: flex;
+    
+}
+#nota-secundaria figure
+{
+    position: relative;
+}
+figure
+{
+    margin: 0 0 20px;
+}   
+
+}
+#nota-secundaria article h2{
+    font-variant: small-caps;
+    line-height: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
